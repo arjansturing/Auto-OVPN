@@ -8,14 +8,16 @@ Use this script at your own risk!
 
 This script automates the following:
 
-- Automated installation OpenVPN & Power-RSA
-- Automated creation of PKI & Server config.
-- Automated creation of Client base config.
-- Adding routes to Server config.
+- OpenVPN & Power-RSA (see: https://github.com/arjansturing/Power-RSA)
+- Creation of PKI & Server config.
+- Creation of Client default config.
+- Adding route in Server config.
 - Adding DNS server to Server config.
 - Adding lookup domain to Server config.
-- Automated creation of password protected client and config.
+- Creation of passwordless client and config.
+- Creation of password protected client and config.
+- Creation of CRL / Revoking a client certificate.
 
-Make sure you run the script in an elevated Powershell session and set the ExecutionPolicy to RemoteSigned by using the following PS command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+Make sure to start an elevated PowerShell Session and set the ExecutionPolicy to RemoteSigned by using the following PS command: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned before running the script!
 
 Automate the world! #PowerShell
