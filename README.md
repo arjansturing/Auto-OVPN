@@ -3,7 +3,7 @@ Version 1.0
 
 By: Arjan Sturing
 
-OpenVPN Powershell automation script for Windows.
+OpenVPN automation Powershell script for Windows.
 
 Use this script at your own risk!
 
