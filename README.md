@@ -23,4 +23,4 @@ Make sure to start an elevated PowerShell Session and set the ExecutionPolicy to
 
 Automate the world! #PowerShell
 
-//This script is tested on Windows 10 2004 with PowerShell version 5.1
+//This script is tested on Windows 10 (Build: 2004) with PowerShell version 5.1
