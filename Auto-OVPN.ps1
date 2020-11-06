@@ -44,7 +44,7 @@ Else
 {cls
 Banner}
 $desktopdir = [Environment]::GetFolderPath("Desktop")
-$OVPN24 = "https://build.openvpn.net/downloads/releases/latest/openvpn-install-latest-stable-win10.exe"
+$OVPN24 = "https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.9-I601-Win10.exe"
 $PowerRSA = "https://github.com/arjansturing/Power-RSA/archive/master.zip"
 $TempDir = "C:\OVPN-TEMPDIR"
 Write-Host "Installing OpenVPN....." -ForegroundColor Green
@@ -489,7 +489,7 @@ do {
 Banner                                                                       
 Write-Host "Select option:"
 Write-Host ""
-Write-Host "1: Install OpenVPN 2.4.x (latest)"
+Write-Host "1: Install OpenVPN 2.4.9"
 Write-Host "2: Create Server config & Client base config including PKI"
 Write-Host "3: Enable routing and add route"
 Write-Host "4: Add DNS server for DHCP clients"
