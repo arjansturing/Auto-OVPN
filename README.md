@@ -9,7 +9,7 @@ Use this script at your own risk!
 
 This script automates the following:
 
-- Installation of OpenVPN 2.4.x (latest) & Power-RSA (see: https://github.com/arjansturing/Power-RSA)
+- Installation of OpenVPN 2.4.9 & Power-RSA (see: https://github.com/arjansturing/Power-RSA)
 - Creation of basic PKI & Server config.
 - Creation of Client default config.
 - Adding route in Server config.
